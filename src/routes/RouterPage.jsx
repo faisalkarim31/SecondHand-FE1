@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Buyer from "../pages/Buyer";
+import Profile from "../pages/Profile";
 import HalamanProduk from "../pages/Seller/HalamanProduk";
 import ProdukDetail from "../pages/Buyer/ProdukDetail";
 import InfoPenawar from '../pages/Seller/InfoPenawar';
@@ -13,6 +14,7 @@ import InfoProduk from '../pages/Seller/InfoProduk';
 import DaftarProduk from '../pages/Buyer/DaftarProduk';
 import EditProduk from '../pages/Seller/EditProduk';
 import PreviewProduk from '../pages/Seller/PreviewProduk';
+
 
 
 const ProtectedRoute = ({role}) => {
@@ -36,6 +38,7 @@ const RouterPage = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/buyer" element={<Buyer />} />
+          <Route path="/infoprofile" element={<Profile />} />
 
 
           {/* Buyer */}
